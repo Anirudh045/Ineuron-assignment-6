@@ -1,0 +1,48 @@
+1. What are escape characters, and how do you use them?
+A. /,//,/n,/r,/t etc. are the major escape characters.
+
+   /-- for ignoring the functionality of next character.
+   
+   //-- for printing one '/'(Backslash)
+   
+   /n-- for printing the things in the next line.
+   
+   /r --for printing the  characters or values present after the /r and ignoring the before values.
+   
+   /t--for tab space
+
+2. What do the escape characters n and t stand for?
+A. /n-- for printing the things in the next line.
+   /t--for tab space
+
+3. What is the way to include backslash characters in a string?
+A. //-- for printing one '/'(Backslash)
+
+4. The string "Howl's Moving Castle is a correct value. Why  the single quote character in the
+   word Howl's not escaped a problem?
+A. Since we have used the double quotes for the string and the word "Howl's" contains single quote so it become syntactically correct according to python..
+
+5. How do you write a string of newlines if you don't want to use the n character?
+A. .end='' can be used to prit in next line or else we use for loop for print each value in different lines..
+
+6. What are the values of the given expressions?
+
+A. Hello, world![1]----- e
+   Hello, world![0:5]--- Hello
+   Hello, world![:5]---- Hello
+   Hello, world![3:]---- lo, world!
+
+7. What are the values of the following expressions?
+   'Hello'.upper() ------   HELLO
+   'Hello'.upper().isupper()-----True
+   'Hello'.upper().lower()------Fals
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()----['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+'-'.join('There can only one'.split()) ------------- There-can-only-one
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+A. .center(len,fillchar)
+   .ljust(len,fillchar)
+   .rjust(len,fillchar)
+10. What is the best way to remove whitespace characters from the start or end?
+A.  .strip() method is used to remove spaces for both ends.
+
